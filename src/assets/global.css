@@ -1,0 +1,24 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobile app frame: 428x926 */
+.v-application {
+  max-width: 428px !important;
+  min-height: 926px !important;
+  margin: 0 auto !important;
+  background: #ffffff !important;
+  position: relative;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+/* Ensure v-icon uses Material Design Icons font */
+.v-icon, .mdi {
+  font-family: 'Material Design Icons', 'mdi', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+}
